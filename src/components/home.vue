@@ -1,16 +1,16 @@
 <template>
   <div>
     <div>{{msg}}</div>
-    <Nav dataA="nav" />
+    <CommonNav dataA="commonNav" />
   </div>
 </template>
 
 <script>
-import Nav from './nav'
+import CommonNav from './commonNav'
 export default {
   name: 'home',
   components: {
-    Nav
+    CommonNav
   },
   props: {
     msg: String
